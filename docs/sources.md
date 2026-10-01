@@ -1,6 +1,6 @@
 # Technical source of truth
 
-Last verified: **2026-09-30**
+Last verified: **2026-10-01**
 
 The official Challenge website is authoritative. Translations in this repository should be updated when these sources change.
 
