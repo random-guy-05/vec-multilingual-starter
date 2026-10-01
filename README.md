@@ -76,6 +76,7 @@ https://virtualembryo.ai/challenge/community
 - [Technical sources and verification date](docs/sources.md)
 - [Metrics overview](docs/metrics_overview.md)
 - [Translation and update policy](docs/translation_policy.md)
+- [Multilingual glossary](docs/glossary.md)
 - [Community Contribution submission text](COMMUNITY_SUBMISSION.md)
 
 ## Important caveats
@@ -89,7 +90,7 @@ https://virtualembryo.ai/challenge/community
 
 ## Contributing translations
 
-Native-speaker corrections are welcome. Please preserve commands, board IDs, file keys and official URLs exactly; translate the explanation around them rather than translating code tokens.
+Initial translations are machine-assisted and technically synchronized; native-speaker review is welcome and should improve phrasing without changing commands or contracts. Please preserve commands, board IDs, file keys and official URLs exactly; translate the explanation around them rather than translating code tokens.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
