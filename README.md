@@ -8,17 +8,17 @@ This repository lowers the language barrier for first-time entrants by providing
 
 ## Languages
 
-| Language | Guide |
-|---|---|
-| English | [docs/tutorial_en.md](docs/tutorial_en.md) |
-| Español | [docs/tutorial_es.md](docs/tutorial_es.md) |
-| 简体中文 | [docs/tutorial_zh-CN.md](docs/tutorial_zh-CN.md) |
-| हिन्दी | [docs/tutorial_hi.md](docs/tutorial_hi.md) |
-| Português | [docs/tutorial_pt-BR.md](docs/tutorial_pt-BR.md) |
-| Français | [docs/tutorial_fr.md](docs/tutorial_fr.md) |
-| العربية | [docs/tutorial_ar.md](docs/tutorial_ar.md) |
-| 日本語 | [docs/tutorial_ja.md](docs/tutorial_ja.md) |
-| 한국어 | [docs/tutorial_ko.md](docs/tutorial_ko.md) |
+| Language | Guide | Review status |
+|---|---|---|
+| English | [docs/tutorial_en.md](docs/tutorial_en.md) | canonical source |
+| Español | [docs/tutorial_es.md](docs/tutorial_es.md) | machine-assisted; technical sync checked |
+| 简体中文 | [docs/tutorial_zh-CN.md](docs/tutorial_zh-CN.md) | machine-assisted; technical sync checked |
+| हिन्दी | [docs/tutorial_hi.md](docs/tutorial_hi.md) | machine-assisted; technical sync checked |
+| Português | [docs/tutorial_pt-BR.md](docs/tutorial_pt-BR.md) | machine-assisted; technical sync checked |
+| Français | [docs/tutorial_fr.md](docs/tutorial_fr.md) | machine-assisted; technical sync checked |
+| العربية | [docs/tutorial_ar.md](docs/tutorial_ar.md) | machine-assisted; technical sync checked |
+| 日本語 | [docs/tutorial_ja.md](docs/tutorial_ja.md) | machine-assisted; technical sync checked |
+| 한국어 | [docs/tutorial_ko.md](docs/tutorial_ko.md) | machine-assisted; technical sync checked |
 
 ## What every guide covers
 
@@ -34,7 +34,7 @@ This repository lowers the language barrier for first-time entrants by providing
 10. Agent Team evidence requirements.
 11. Common first-submission mistakes.
 
-The guides are intentionally synchronized: the technical facts live in [docs/sources.md](docs/sources.md), while the translated guides explain the same workflow in each language.
+The guides are intentionally synchronized: the technical facts live in [docs/sources.md](docs/sources.md), while the translated guides explain the same workflow in each language. `python scripts/check_sync.py` verifies the board IDs, published limits, key AnnData fields, core commands and timeline markers across all nine guides; the same check runs in GitHub Actions.
 
 ## Current board contract
 
